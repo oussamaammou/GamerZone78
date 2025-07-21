@@ -12,24 +12,24 @@ html
       color: white;
     }
 
-    header {
+   header {
       text-align: center;
       padding: 20px;
       background-color: #0056b3;
     }
 
-    header h1 {
+  header h1 {
       font-size: 36px;
       font-weight: bold;
       font-style: italic;
       color: red;
     }
-
-    header h1 span {
+    
+  header h1 span {
       color: black;
     }
 
-    .games {
+  .games {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -37,7 +37,7 @@ html
       gap: 20px;
     }
 
-    .game {
+   .game {
       background-color: #ffffff15;
       padding: 10px;
       border-radius: 10px;
@@ -46,20 +46,20 @@ html
       transition: 0.3s;
     }
 
-    .game img {
-      width: 100%;
+   .game img {
+     width: 100%;
       height: 100px;
       object-fit: contain;
       border-radius: 8px;
     }
 
-    .game h2 {
+   .game h2 {
       font-size: 18px;
       margin: 10px 0;
       font-weight: bold;
     }
 
-    .game a {
+  .game a {
       background-color: #ff4757;
       color: white;
       padding: 8px 14px;
@@ -69,11 +69,11 @@ display: inline-block;
       font-weight: bold;
     }
 
-    .game:hover {
+   .game:hover {
       transform: scale(1.05);
     }
 
-    footer {
+   footer {
       text-align: center;
       padding: 15px;
       background-color: #004494;
