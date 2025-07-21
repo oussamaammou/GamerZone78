@@ -1,124 +1,146 @@
+html
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>GEMS 78</title>
   <style>
     body {
-      background-color: #007bff;
       margin: 0;
       font-family: 'Arial', sans-serif;
+      background-color: #007bff;
+      color: white;
     }
+
     header {
       text-align: center;
-      padding: 30px 10px;
+      padding: 20px;
+      background-color: #0056b3;
     }
-    h1 {
-      font-size: 48px;
+
+    header h1 {
+      font-size: 36px;
       font-weight: bold;
       font-style: italic;
       color: red;
-      text-shadow: 2px 2px 0 black;
     }
-    .controller {
-      width: 100px;
-      display: block;
-      margin: 0 auto 10px;
+
+    header h1 span {
+      color: black;
     }
+
     .games {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       padding: 20px;
+      gap: 20px;
     }
+
     .game {
-      background-color: white;
+      background-color: #ffffff15;
+      padding: 10px;
       border-radius: 10px;
+      width: 180px;
       text-align: center;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-      overflow: hidden;
+      transition: 0.3s;
     }
+
     .game img {
       width: 100%;
-      height: 150px;
-      object-fit: cover;
+      height: 100px;
+      object-fit: contain;
+      border-radius: 8px;
     }
-    .game-title {
-      font-weight: bold;
+
+    .game h2 {
       font-size: 18px;
       margin: 10px 0;
-      color: #333;
-    }
-    .btn {
-      background-color: crimson;
-      color: white;
-      padding: 10px 15px;
-      text-decoration: none;
-      border-radius: 5px;
       font-weight: bold;
-      display: inline-block;
-margin-bottom: 10px;
     }
-    .btn:hover {
-      background-color: darkred;
+
+    .game a {
+      background-color: #ff4757;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+display: inline-block;
+      font-weight: bold;
+    }
+
+    .game:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #004494;
     }
   </style>
 </head>
 <body>
   <header>
-    <img class="controller" src="https://ibb.co/R4MrGbqv.png" alt="controller">
-    <h1>GEMS 78</h1>
+    <h1><span>GEMS</span> 78</h1>
+    <p>أفضل الألعاب للجوال - حمل الآن</p>
   </header>
+
   <div class="games">
     <div class="game">
-      <img src="https://i.imgur.com/yKpUGV3.png" alt="PUBG">
-      <div class="game-title">PUBG Mobile</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/PUBG_Mobile_logo.png" alt="PUBG Mobile" />
+      <h2>PUBG Mobile</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/hHgyHfH.png" alt="Free Fire">
-      <div class="game-title">Free Fire</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Free_Fire_logo.png" alt="Free Fire" />
+      <h2>Free Fire</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/41fOvvo.png" alt="COD">
-      <div class="game-title">Call of Duty Mobile</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/77/Call_of_Duty_Mobile_logo.png" alt="COD Mobile" />
+      <h2>Call of Duty Mobile</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/BXUFeh2.png" alt="Clash of Clans">
-      <div class="game-title">Clash of Clans</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Clash_of_Clans_logo.png" alt="Clash of Clans" />
+      <h2>Clash of Clans</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/8zgyuHK.png" alt="Clash Royale">
-      <div class="game-title">Clash Royale</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Clash_Royale_Logo.png" alt="Clash Royale" />
+<h2>Clash Royale</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/SVgsS8H.png" alt="FIFA">
-<div class="game-title">FIFA Mobile</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/f/f4/FIFA_Mobile_logo.png" alt="FIFA Mobile" />
+      <h2>FIFA Mobile</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/yzkfsyo.png" alt="Mobile Legends">
-      <div class="game-title">Mobile Legends</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Mobile_Legends_Bang_Bang_logo.png" alt="Mobile Legends" />
+      <h2>Mobile Legends</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/p0t1bMR.png" alt="Among Us">
-      <div class="game-title">Among Us</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/33/Among_Us_cover_art.png" alt="Among Us" />
+      <h2>Among Us</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/fAzCwvu.png" alt="Subway">
-      <div class="game-title">Subway Surfers</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Subway_Surfers_app_logo.png" alt="Subway Surfers" />
+      <h2>Subway Surfers</h2>
+      <a href="#">تحميل</a>
     </div>
     <div class="game">
-      <img src="https://i.imgur.com/OEKhvGB.png" alt="Candy Crush">
-      <div class="game-title">Candy Crush</div>
-      <a class="btn" href="#">تحميل</a>
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Candy_Crush_Saga_logo.png" alt="Candy Crush" />
+      <h2>Candy Crush</h2>
+      <a href="#">تحميل</a>
     </div>
   </div>
+
+  <footer>
+    <p>&copy; 2025 GEMS 78 - جميع الحقوق محفوظة</p>
+  </footer>
 </body>
+</html>
