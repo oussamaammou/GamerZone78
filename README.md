@@ -1,6 +1,4 @@
-html
-<!DOCTYPE html>
-<html lang="ar">
+<html></html> lang="ar">
 <head>
   <meta charset="UTF-8" />
   <title>GEMS 78</title>
