@@ -66,7 +66,7 @@ margin-bottom: 10px;
 </head>
 <body>
   <header>
-    <img class="controller" src="https://ibb.com/R4MrGbqv.png" alt="controller">
+    <img class="controller" src="https://ibb.co/R4MrGbqv.png" alt="controller">
     <h1>GEMS 78</h1>
   </header>
   <div class="games">
